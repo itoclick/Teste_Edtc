@@ -4,17 +4,20 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  border: solid;
   margin-left: 30px;
-  border-color:rgba(235, 155, 13, 0.3);
+  border-color:rgba(251, 251, 248, 0.055);
   width: 285px;
   align-self: flex-start;
 }
 
 .container_resposta input{
+  border-color: rgb(129, 160, 160);
+  border-width: 8px;
+  border-style: ridge;
   height: 35px;
   width: 262px;
 }  
+
 }
 
 @media screen and (min-width: 414px) {
@@ -25,14 +28,17 @@
     align-items: center;
     border: solid;
     margin-left: 90px;
-    border-color:rgba(235, 154, 13, 0.5);
-    width: 350px;
+    border-color:rgba(251, 251, 248, 0.055);
+    width: 390px;
   }
   
   .container_resposta input{
     border-color: rgb(129, 160, 160);
-    border-width: px;
+    border-width: 8px;
+    border-style: ridge;
     height: 35px;
     width: 300px;
+    font-size: xx-large;
   } 
+  
 }

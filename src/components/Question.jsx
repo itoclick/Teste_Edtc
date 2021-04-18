@@ -1,5 +1,5 @@
 import React from 'react';
-import robot from '../imags/chatbot.jpg';
+import robot from '../imags/robot.png';
 import '../css/question.css';
 
 function Question ({pergunta, ...rest}){

@@ -17,8 +17,8 @@
     border-color:rgba(192,192,192,0.1);  
   }
   .capacete img{
-    height: 85px;
-    width: 80px;
+    height: 120px;
+    width: 100px;
   }
   .pergunta-container{
     background-image: url(../imags/fundochat.png);
@@ -58,8 +58,8 @@
   
   }
   .capacete img{
-    height: 85px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
   }
   .pergunta-container{
     background-image: url(../imags/fundochat.png);
