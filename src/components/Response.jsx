@@ -5,8 +5,8 @@ import '../css/response.css';
 function Response(){
 
 return(
-<div>
-<input type="text"/>
+<div className="container_resposta">
+<input type="text" placeholder="Digite aqui" />
 <button type="button"><img src={play} alt="Botão envio"/></button>
 </div>
 )

@@ -1,4 +1,38 @@
-input{
-  height: 30px;
+@media screen and (max-width: 413px) {
+.container_resposta{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: solid;
+  margin-left: 30px;
+  border-color:rgba(235, 155, 13, 0.3);
+  width: 285px;
+  align-self: flex-start;
+}
+
+.container_resposta input{
+  height: 35px;
+  width: 262px;
+}  
+}
+
+@media screen and (min-width: 414px) {
+  .container_resposta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: solid;
+    margin-left: 90px;
+    border-color:rgba(235, 154, 13, 0.5);
+    width: 350px;
+  }
   
+  .container_resposta input{
+    border-color: rgb(129, 160, 160);
+    border-width: px;
+    height: 35px;
+    width: 300px;
+  } 
 }

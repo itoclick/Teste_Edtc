@@ -1,11 +1,22 @@
+@media screen and (max-width: 413px) {
 .main_Chate {
-  height: 450px;
+  height: 95%;
   border-style: solid;
   border-color: blue;
 }
+}
 
+@media screen and (min-width: 414px) {
+  .main_Chate {
+   align-self: center;
+    height: 700px;
+    width: 500px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(115, 212, 191, 0.479);
+  }
 
-
+}
 
 
 
