@@ -1,0 +1,40 @@
+@media screen and (max-width: 413px) {
+  
+  .container_Capacete_Pergunta{
+    
+    display: block;
+    height: 300px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(255, 217, 0);
+  }
+  
+  .capacete{
+    border-collapse: separate;
+    height: 80px;
+    width: 80px;
+    border-style: solid;
+    border-color: rgb(243, 243, 218);
+  
+  }
+  .capacete img{
+    height: 85px;
+    width: 80px;
+  }
+  .pergunta-container{
+    background-image: url(../imags/fundochat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(243, 238, 241);
+  }
+  .pergunta-container p{
+    margin-top: 110px;
+  }
+
+}
